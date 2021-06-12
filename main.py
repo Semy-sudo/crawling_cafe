@@ -13,7 +13,7 @@ reviewData = list()
 # links = browser.find_element_by_class_name('paging').find_elements_by_tag_name('a')
 #_iter = 1000
 #for page in tqdm(range(_iter)):
-for page in range(8):
+for page in range(11):
     url = 'https://www.mangoplate.com/search/경기도-디저트?keyword=경기도%20디저트&page='+str(page)
     browser.get(url)
     print(url)
